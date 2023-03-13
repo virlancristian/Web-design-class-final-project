@@ -1,0 +1,80 @@
+body {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    justify-content: center;
+}
+
+.card {
+    max-width: 750px;
+
+    height: auto;
+    margin: auto;
+    margin-top: 250px;
+
+    background-color: #ffffd3;
+    text-align: center;
+
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.searchbar {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    height: 15px;
+    width: 300px;
+
+    position: relative;
+}
+
+.search img {
+    width: 15px;
+    height: 15px;
+}
+
+.city {
+    font-size: 300%;
+}
+
+.temperature {
+    font-size: 200%;
+}
+
+.description {
+    font-size: 150%;
+}
+
+.fivedayforecast {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.weatherinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+.list {
+    width: 200px;
+    height: 100%;
+    background-color: #ffffd3;
+    
+    margin-left: 100px;
+}
