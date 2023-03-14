@@ -37,7 +37,7 @@ function modifySearchBox() {
 }
 
 let weather = {
-    "apiKey": "af2c5d497d2bf40f8c431fc4d3a43a89",
+    "apiKey": "",
     fetchLocation: function(city) {
         fetch("http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=5&appid=" + this.apiKey)
         .then((response) => response.json())
